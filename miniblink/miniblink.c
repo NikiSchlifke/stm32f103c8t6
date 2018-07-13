@@ -27,7 +27,7 @@ gpio_setup(void) {
 
 	/* Set GPIO8 (in GPIO port C) to 'output push-pull'. */
 	gpio_set_mode(GPIOC,GPIO_MODE_OUTPUT_2_MHZ,
-		      GPIO_CNF_OUTPUT_PUSHPULL,GPIO13);
+		      GPIO_CNF_OUTPUT_OPENDRAIN,GPIO13);
 }
 
 int
